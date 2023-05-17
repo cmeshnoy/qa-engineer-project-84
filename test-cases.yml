@@ -1,68 +1,69 @@
 ---
 - summary: |
     Открытие карточки товара
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность просматривать карточку товара
-prerequisites: |
+  prerequisites: |
     Открыта главная страница
-test-data: |
+  test-data: |
     Google Chrome Версия 113.0.5672.93 (Официальная сборка), (64 бит)
-steps:
+  steps:
     - Нажимаем на товар
-expected-result: |
+  expected-result: |
     Открывается карточка и отображается цена, описание, фотографии товара
 
 - summary: |
     Проверка фильтра по категории
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность искать товары по категории
-prerequisites: |
-    Открыта главная страница 
-test-data: |
+  prerequisites:
+    Открыта главная страница
+  test-data: |
     Google Chrome Версия 113.0.5672.93 (Официальная сборка), (64 бит)
-steps:
+  steps:
     - Нажимаем кнопку "Категории"
     - Нажимаем на любую из представленных категорий
-expected-result: |
+  expected-result: |
     Отображаются товары по выбранной категории
-    
+
 - summary: |
     Отображение добавленного товара в корзине
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность просматривать содержимое корзины
-prerequisites: |
+  prerequisites: |
     Товар добавлен в корзину
-test-data: |
+  test-data: |
     Google Chrome Версия 113.0.5672.93 (Официальная сборка), (64 бит)
-steps:
+  steps:
     - Нажимаем кнопку "Корзина"
-expected-result: |
+  expected-result: |
     В корзине отображаются добавленные товары
-    
+
 - summary: |
     Удаление товара из корзины
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность удалять товар из корзины
-prerequisites: |
+  prerequisites:
     Открыта корзина с добавленным товаром
-test-data: |
+  test-data: |
     Google Chrome Версия 113.0.5672.93 (Официальная сборка), (64 бит)
-steps:
+  steps:
     - Нажимаем кнопку "Удалить"
-expected-result: |
+  expected-result: |
     Товар удален из корзины
     
 - summary: |
     Проверка фильтра по цене
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность фильтровать товары по цене
-prerequisites: |
+  prerequisites:
     Открыта главная страница
-test-data: |
+  test-data: |
     Google Chrome Версия 113.0.5672.93 (Официальная сборка), (64 бит)
-steps:
+  steps:
     - Делаем скролл до фильтра по цене
     - Оставляем поле "От" пустым
     - В поле "До" вводим значение 500
-expected-result: |
+  expected-result: |
     Отображаются товары согласно введенному диапазону цены
+        
