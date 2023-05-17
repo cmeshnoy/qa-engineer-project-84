@@ -1,0 +1,20 @@
+---
+- summary: |
+    Открытие карточки товара
+  status: pass
+
+- summary: |
+    Проверка фильтра по категории
+  status: pass
+  
+- summary: |
+    Отображение добавленного товара в корзине
+  status: pass
+  
+- summary: |
+    Удаление товара из корзины
+  status: pass
+  
+- summary: |
+    Проверка фильтра по цене
+  status: pass
