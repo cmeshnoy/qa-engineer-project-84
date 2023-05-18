@@ -17,4 +17,4 @@
   
 - summary: |
     Проверка фильтра по цене
-  status: pass
+  status: fail
